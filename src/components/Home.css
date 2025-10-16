@@ -1,0 +1,80 @@
+.spancolor{
+    color: maroon;
+}
+.headingtop{
+    font-weight: bold;
+}
+.mainbanner{
+position: relative;
+overflow: hidden;
+}
+.scroll-container {
+    position: absolute;
+  display: flex;
+  width: max-content; /* container width fits the text */
+  animation: scroll 15s linear infinite;
+  top: 50%;
+left: 0;
+
+transform: translateY(-50%);
+}
+.textabovebanner{
+font-size: 2.5vw;
+
+white-space: nowrap; 
+color: #fff;
+margin-bottom: 0;
+font-weight: 350;
+}
+@keyframes scroll {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}
+
+.onimage{
+    position:relative;
+    border-radius: 10px 10px 0 10px;
+}
+.onimage img{
+    border-radius: 10px 10px 0 10px;
+}
+.onimagesdiv{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+display: flex;
+align-items:center ;
+justify-content: space-around;
+flex-direction: column;
+ border-radius: 10px 10px 0 10px;
+}
+.onimagesdiv p{
+    font-size: 2rem;
+    color: #fff;
+}
+.btndesign1{
+    font-size: 1.1rem;
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.offmarketdiv{
+    width: 50%;
+}
+.btndesign2{
+ font-size: 1.1rem;
+    color: #fff;
+    background-color: maroon;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    
+}
