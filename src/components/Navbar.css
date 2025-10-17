@@ -1,4 +1,10 @@
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: #fff; /* Important for visibility */
+}
 nav a{
     text-decoration: none;
     color: #2a2a2a;
@@ -26,4 +32,32 @@ header i{
     color: #fff;
     background-color: maroon;
 padding:0.5rem 1rem;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: -300px;
+    background-color: maroon;
+    z-index: 100;
+    width: 260px;
+    height: 100vh;
+    transition: 0.3s;
+}
+.menu.scrollmenu{
+     left:0 !important;
+}
+.menu ul{
+    margin-bottom: 0;
+    padding-left: 0;
+    margin-top: 2rem;
+}
+.menu li{
+list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 2;
 }

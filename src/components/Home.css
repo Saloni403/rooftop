@@ -1,5 +1,8 @@
-html, body{
+
+@media (max-width:576px) {
+   html, body{
     overflow-x: hidden;
+} 
 }
 .spancolor{
     color: maroon;
