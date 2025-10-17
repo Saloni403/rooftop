@@ -1,3 +1,6 @@
+html, body{
+    overflow-x: hidden;
+}
 .spancolor{
     color: maroon;
 }
@@ -66,9 +69,15 @@ flex-direction: column;
     padding: 0.5rem 1rem;
     text-decoration: none;
 }
-
+.offmarket{
+    display:flex;
+}
+.offmarket img{
+    width: 50%;
+}
 .offmarketdiv{
     width: 50%;
+    background-color:whitesmoke;
 }
 .btndesign2{
  font-size: 1.1rem;
@@ -77,4 +86,54 @@ flex-direction: column;
     padding: 1rem 3rem;
     text-decoration: none;
     
+}
+@media (max-width:992px){
+.offmarket{
+    display: block;
+}
+.offmarket img{
+    width: 100%;
+}
+.offmarketdiv{
+    width: 100%;
+}
+}
+.ournumbersdiv{
+    padding: 4rem 1rem 1rem 1rem;
+    border-radius: 10px 10px 0 10px;
+    box-shadow: 0px 4px 8px rgba(128, 128, 128, 0.247);
+}
+.ournumbers .ournumbersdiv h1 , .ournumbers .ournumbersdiv h4{
+margin-bottom: 0;
+}
+
+.bgm{
+    background-color: maroon;
+    color: #fff;
+}
+.bgsw{
+    background-color: whitesmoke;
+    color: rgb(43, 42, 42);
+}
+.locationdiv span{
+    font-size:3.5vmax;
+}
+.contactfrm{
+    background-image: url(/public/images/contact-form-background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contactfrm form input, .contactfrm form textarea{
+background-color: transparent;
+border: none;
+border-bottom: 2px solid rgb(183, 182, 182);
+border-radius: 10px;
+width: 100%;
+padding: 0.5rem 1rem;
+margin-bottom: 2rem;
+}
+#policy{
+    width: fit-content;
+    margin: 0 1rem;
 }

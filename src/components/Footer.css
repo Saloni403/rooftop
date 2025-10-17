@@ -1,0 +1,13 @@
+footer{
+    background-color: maroon;
+    color: #fff;
+    padding: 2rem 0;
+}
+footer hr{
+    color: #fff;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+
+}
