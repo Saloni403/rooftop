@@ -1,4 +1,5 @@
 import React from 'react'
+import './About.css'
 import "./Home.css"
 export const About = () => {
   return (
@@ -14,21 +15,31 @@ export const About = () => {
       </section>
 <hr/>
 
-{/* The approach */}
+{/* The mission and vission */}
 <section className='my-5'>
   <div className='container'>
 <h5 className='spancolor headingtop'>THE APPROACH</h5>
 <h2>Our identity guides our actions and relationships.</h2>
   </div>
-   <div className='offmarket mt-5'>
+
+   <div className='offmarket mt-5' style={{backgroundColor: 'rgba(244, 244, 244, 0.82)'}}>
    <img src='/images/offmarketbanner.jpg'/>
-    <div className='offmarketdiv p-sm-5 p-3'>
+    <div className='mission p-sm-5 p-3'>
       <div className='mb-5'>
-      <h5 className='spancolor headingtop'>OFF - MARKET</h5>
-<h1>So exclusive that they are not visible on maps. Roof&Roots has the coordinates to reach them.</h1>
+      <h5 className='spancolor headingtop'>OUR MISSION</h5>
+<p>The roof, in contact with the sky, is the ethereal part of Roof&Roots. It represents openness to listening, human touch and the visionary nature of an aesthetic taste that translates needs into functional and elegant solutions.</p>
 </div>
-<a href='' className='btndesign2'>LEARN MORE</a>
     </div>
+  </div>
+
+   <div className='offmarket reorder' style={{backgroundColor: 'rgb(105, 21, 18)'}}>
+    <div className='vission p-sm-5 p-3'>
+      <div className='mb-5'>
+      <h5 className='headingtop'>OUR VISSION</h5>
+<p>The roof, in contact with the sky, is the ethereal part of Roof&Roots. It represents openness to listening, human touch and the visionary nature of an aesthetic taste that translates needs into functional and elegant solutions.</p>
+</div>
+    </div>
+    <img src='/images/offmarketbanner.jpg'/>
   </div>
 </section>
     </div>

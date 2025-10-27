@@ -92,7 +92,8 @@ flex-direction: column;
 }
 @media (max-width:992px){
 .offmarket{
-    display: block;
+    /* display: block; */
+    flex-direction: column;
 }
 .offmarket img{
     width: 100%;
