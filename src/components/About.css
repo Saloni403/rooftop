@@ -24,3 +24,70 @@
        flex-direction: column-reverse;
 }
 }
+
+
+/* our values */
+.ourvaluesdiv{
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 2rem 1rem;
+}
+.ourvaluesdiv h5{
+color: maroon;
+font-size: 18px;
+margin-top: 1rem;
+}
+.ourvaluesdiv p{
+font-weight: 400;
+font-size: 14px;
+}
+
+
+/* our team */
+.backdivmain {
+  position: relative;
+  width: 100%;
+ aspect-ratio: 4/5;
+  perspective: 1000px; /* gives 3D depth */
+}
+
+.inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d; /* keep 3D sides */
+}
+
+.backdivmain:hover .inner {
+  transform: rotateY(180deg);
+}
+
+.front,
+.backdiv {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px 10px 0 10px;
+}
+
+.front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 10px;
+}
+
+.backdiv {
+  background-color: maroon;
+  color: #fff;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 1rem;
+  transform: rotateY(180deg);
+  border-radius: 10px 10px 0 10px;
+  overflow-y: scroll;
+}

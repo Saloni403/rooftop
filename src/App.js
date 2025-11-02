@@ -17,19 +17,19 @@ function App() {
      },
     {
        path: "/about",
-      element:  <><Navbar/><About/></>
+      element:  <><Navbar/><About/><Footer/></>
     },
       {
       path: "/contact",
-      element:  <><Navbar/><Contact/></>
+      element:  <><Navbar/><Contact/><Footer/></>
      },
     {
        path: "/offmarket",
-      element:  <><Navbar/><OffMarket/></>
+      element:  <><Navbar/><OffMarket/><Footer/></>
     },
     {
        path: "/onmarket",
-      element: <><Navbar/><OnMarket/></>
+      element: <><Navbar/><OnMarket/><Footer/></>
     },
      {
        path: "/user/:username",

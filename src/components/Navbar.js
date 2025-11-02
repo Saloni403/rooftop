@@ -11,6 +11,7 @@ const Navbar = () => {
       <div className="container-md px-md-3 px-0 d-flex align-items-center justify-content-between py-md-3">
      <Link to="/"><img src="../rooftoplogo.webp" width="80" className="ms-md-0 ms-3"/></Link> 
       <nav className="d-md-block d-none">
+        <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
         <Link to="/offmarket">OffMarket</Link>
@@ -25,6 +26,7 @@ const Navbar = () => {
     <div className="menu py-5 px-3 d-md-none">
       <a href="/"><img src="/images/logo-footer.webp" width="100"/></a> 
     <ul>
+      <li><a href="/">Home</a></li>
       <li><a href="/about">About</a></li>
       <li><a href="/contact">Contact</a></li>
       <li><a href="/offmarket">OffMarket</a></li>
