@@ -1,0 +1,55 @@
+small{
+    font-size: 12px;
+    color: #666666;
+}
+.sinside, .soutside  {
+    width: 50%;
+    position: relative;
+    min-height: 28px;
+}
+.sinside:before {
+    content: url(https://roofandrootstg.wpenginepowered.com/wp-content/uploads/2024/12/iconaSuperficeI.svg);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.soutside:before {
+    content: url(https://roofandrootstg.wpenginepowered.com/wp-content/uploads/2024/12/iconaSuperficeE.svg);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.onimgdiv{
+    position: relative;
+}
+.onimgdiv2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.onimgcntnt{
+    position: absolute;
+    top: 10px;
+    color: #fff;
+    width: 100%;
+}
+.onimgcntnt small{
+    color: #fff !important;
+}
+.onimgcntnt i{
+   font-size: 1.5rem;
+}
