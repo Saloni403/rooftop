@@ -41,7 +41,7 @@ export const OnMarket = () => {
         </div>
 
   <div className='col-lg-3 col-md-4 col-sm-6'>
-          <div className='position-relative' onClick={location.href=''}>
+          <div className='position-relative'>
             <div className='onimgdiv'>
              <img src='/images/onmarketbannerimg.jpg' className='img-fluid' />
              <div className='onimgdiv2'>ROOF <br/> & <br/> TOP</div>
